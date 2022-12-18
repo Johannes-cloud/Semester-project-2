@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="data:;base64,=" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/bbcc3f0859.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+        <div class="container">
+            <h1>Login</h1>
+            <main class="container pt-3">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-md-6 col-lg-5">          
+                    <form
+                      id="login"
+                      action="http://localhost:1337/auth/local"
+                      method="post"
+                    >
+                      <div class="input-group mb-3">
+                        <label for="identifier" class="input-group-text">Username</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="identifier"
+                          name="identifier"
+                          required
+                        />
+                      </div>
+          
+                      <div class="input-group mb-3">
+                        <label for="password" class="input-group-text">Password</label>
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="password"
+                          name="password"
+                          required
+                        />
+                      </div>
+          
+                      <button type="reset" class="btn btn-outline-danger">Reset</button>
+                      <button type="submit" class="btn btn-success">
+                        Login
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </main>
+        <script src="js/login.js" type="module" defer></script>
+    </body>
+</html>

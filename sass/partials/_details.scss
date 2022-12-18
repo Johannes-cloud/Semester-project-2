@@ -1,0 +1,30 @@
+.product {
+    margin-bottom: 100px;
+}
+
+.details-img {
+    width: 100%;
+}
+
+.fa-shopping-cart {
+    position: absolute;
+    font-size: 60px;
+}
+
+.fa-shopping-cart:hover {
+    color: green;
+    transition: .5s;
+}
+
+.fa-times {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.fa-times:hover {
+    color: red;
+    transition: .5s;
+}
+

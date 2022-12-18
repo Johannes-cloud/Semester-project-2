@@ -8,9 +8,9 @@ N(ot)ike is a online clothing store. The app is connected to a local Strapi inst
 
 ## Built With
 
-- [HTML]
-- [Css]
-- [JavaScript]
+- HTML
+- Css
+- JavaScript
 - [Sass](https://sass-lang.com)
 - [Bootstrap](https://getbootstrap.com)
 - [Strapi](https://strapi.io)
